@@ -4,7 +4,7 @@
 
 1. 项目初始化时使用 routerTracking 方法
 2. 固定的路由，能直接匹配到的路由名称直接在对应的配置添加
-3. 动态路由，比如 http://www.test.com/a/{id}，截取固定且唯一的路由
+3. 动态路由，比如 `http://www.test.com/a/{id}`，截取固定且唯一的路由
 
 ## 页面埋点 pageViewTracking
 
