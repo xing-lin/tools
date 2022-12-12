@@ -1,10 +1,6 @@
-interface Path {
-  pathname: string;
-  search: string;
-  hash: string;
-}
+import { Path } from './index';
 
-function parsePath(path: string): Partial<Path> {
+export function parsePath(path: string): Partial<Path> {
   let parsePath: Partial<Path> = {};
 
   if (path) {
