@@ -6,5 +6,9 @@
 function composeClassNames(
   classNames: (string | undefined | boolean)[]
 ): string {
-  return classNames.filter(Boolean).join(' ');
+  let className = '';
+  if (Array.isArray(classNames)) {
+    className = classNames.filter(Boolean).join(' ');
+  }
+  return className;
 }
